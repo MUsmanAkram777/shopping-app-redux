@@ -46,7 +46,7 @@ function MainProduct() {
 
   const fetchSingleProduct = async (id) => {
     
-    let item = cart_items.find(item=> item.id == id)
+    let item = cart_items?.find(item=> item.id == id)
     if(cart_items.length > 0 && item){
       setProduct({...item});
       setAtcCount(item.count ? item.count : 1)
