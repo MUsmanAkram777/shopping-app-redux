@@ -48,7 +48,7 @@ function MainProduct() {
     if(cart_items.length > 0){
       let item = cart_items.find(item=> item.id == id)
       setProduct({...item});
-      setAtcCount(item.count)
+      setAtcCount(item.count ? item.count : 1)
       setLoding(false);
     }else{
       const repsonse = await fetch(`https://fakestoreapi.com/products/${id}`);
