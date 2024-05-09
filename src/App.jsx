@@ -6,7 +6,7 @@ import "react-toastify/dist/ReactToastify.css";
 
 function App() {
   return (
-    <div className="font-body">
+    <div className="font-body pt-8">
       <Nav />
       <Outlet />
       <ToastContainer />

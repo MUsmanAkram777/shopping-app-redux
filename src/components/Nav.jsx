@@ -6,7 +6,7 @@ function Nav() {
 
   const item_count = useSelector(state => state.cart.item_count)
   return (
-    <div className="relative w-full bg-orange-700">
+    <div className="fixed top-0 left-0 w-full bg-orange-700">
       <div className="mx-auto flex max-w-7xl items-center justify-center px-4 py-2 sm:px-6 lg:px-8">
         <div className="block">
           <ul className="inline-flex space-x-8">
