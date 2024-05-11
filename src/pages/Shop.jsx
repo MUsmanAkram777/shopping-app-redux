@@ -62,7 +62,7 @@ function Shop() {
             <label
               // to={`/shopping-app-redux/category/${category}`}
               className={
-                selectedCats.includes(category) ? "px-4 cursor-pointer py-1 rounded-full capitalize text-smbg-black text-white bg-black" :
+                selectedCats.includes(category) ? "px-4 cursor-pointer py-1 rounded-full capitalize text-sm text-white bg-black" :
                 "px-4 cursor-pointer py-1 text-black bg-white rounded-full capitalize text-sm hover:bg-black hover:text-white"
               }
               key={index}
